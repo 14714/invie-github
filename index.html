@@ -6,18 +6,24 @@
     <style media="screen">
       body {
         margin : 0 ;
-        border: 10px solid #1A77D0;
+        border: 10px solid #000431;
       }
       img {
         max-width: 100% ;
         vertical-align:top;
       }
+      img#responsive{
+        display:none;
+      }
+      @media screen and (max-width: 768px){
+        img#responsive{
+          display:block;
+        }
+      }
+
     </style>
   </head>
   <body>
-    <img src="cielo.jpg" alt="">
-    <img src="Jellyfish.jpg" alt="">
-    <img src="aurora.jpg" alt="">
-    <img src="Penguins.jpg" alt="">
+    <img src="Jellyfish.jpg" alt="" id="responsive">
   </body>
 </html>
