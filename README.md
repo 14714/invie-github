@@ -1,2 +1,2 @@
-# invie-github
-Mi primer github
+# Emepzando con GitHub
+A lo platzi baby
